@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz page for Data Structure</title>
+    <link rel="stylesheet" href="aiml-style.css">
+</head>
+<body>
+    <div class="main-body">
+    <div class="bg-video">
+        <video autoplay muted loop class="video">
+        <source src="resources/bgVideo.mp4" type="video/mp4">
+        </video>
+        </div>
+        <header class="header">
+            <h1 class="gradient-text">QUIZ Data Structure</h1>
+        </header>
+        <form id="form">
+            <div class="question-plate">
+            <div class="question-no">
+                    1.
+                </div>
+                <div class="question">
+                    Which data structure uses LIFO (Last In First Out) principle?
+                </div>
+            </div>
+            <div class="options">
+            <ul>
+                <div class="option"><input type="radio" name="q1" value="a"> a) Stack</div>
+                <div class="option"><input type="radio" name="q1" value="b"> b) Queue</div>
+                <div class="option"><input type="radio" name="q1" value="c"> c) Linked list</div>
+                <div class="option"><input type="radio" name="q1" value="d"> d) Tree</div> 
+            </ul>         
+            </div>
+            <div class="question-plate">
+                <div class="question-no">
+                2.
+                </div>
+                <div class="question">
+                    Which data structure is best suited for implementing a priority queue?
+                </div>
+            </div>
+            <div class="options">
+                <ul>
+                    <div class="option"><input type="radio" name="q2" value="a"> a) Array </div>
+                    <div class="option"><input type="radio" name="q2" value="b"> b) Heap </div>
+                    <div class="option"><input type="radio" name="q2" value="c"> c) Linked List </div>
+                    <div class="option"><input type="radio" name="q2" value="d"> d) Stack</div> 
+            </ul>         
+            </div>
+            <div class="question-plate">
+                <div class="question-no">
+                3.
+                </div>
+                <div class="question">
+                What is the time complexity of searching an element in a balanced Binary Search Tree (BST)?
+                </div>
+            </div>
+            <div class="options">
+                <ul>
+                    <div class="option"><input type="radio" name="q3" value="a"> a) O(1)</div>
+                    <div class="option"><input type="radio" name="q3" value="b"> b) O(n)</div>
+                    <div class="option"><input type="radio" name="q3" value="c"> c) O(log n)</div>
+                    <div class="option"><input type="radio" name="q3" value="d"> d) O(n log n)</div> 
+                </ul>         
+            </div>
+            <div class="question-plate">
+                <div class="question-no">
+                4.
+                </div>
+            <div class="question">
+                    Which traversal of a binary tree gives the nodes in sorted order (for BST)?
+                </div>
+            </div>
+            <div class="options">
+                <ul>
+                    <div class="option"><input type="radio" name="q4" value="a"> a) Preorder </div>
+                    <div class="option"><input type="radio" name="q4" value="b"> b) Level-Order </div>
+                    <div class="option"><input type="radio" name="q4" value="c"> c) Postorder </div>
+                    <div class="option"><input type="radio" name="q4" value="d"> d) Inorder </div> 
+                </ul>         
+            </div>
+            <div class="question-plate">
+                <div class="question-no">
+                    5.
+            </div>
+            <div class="question">
+                Which data structure is used for implementing recursion?
+            </div>
+            </div>
+            <div class="options">
+                <ul>
+                    <div class="option"><input type="radio" name="q5" value="a"> a) Stack</div>
+                    <div class="option"><input type="radio" name="q5" value="b"> b) Queue</div>
+                    <div class="option"><input type="radio" name="q5" value="c"> c) Graph</div>
+                    <div class="option"><input type="radio" name="q5" value="d"> d) Hash Table</div> 
+                </ul>  
+        </div>       
+            <div class="subm">
+                <button type="submit" class="sub">Submit Quiz</button>
+            </div>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

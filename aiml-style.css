@@ -1,0 +1,104 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+  margin: 0;
+  background: #0b0c10;
+  color: #e6e8ec;
+}
+.main-body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+}
+.bg-video{
+    position: fixed;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -8;
+}
+.video{
+    width: 3000px;
+}
+.header {
+  text-align: center;
+  padding: 50px 20px 20px;
+}
+.header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.question-plate{
+    backdrop-filter: blur(20px);
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    margin-bottom: 0;
+    margin: 10%;
+    display: flex;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.9);
+}
+.question-no{
+    margin: 10px;
+}
+.question{
+    margin: 10px;
+    margin-right: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0;
+    justify-content: space-between ;
+
+}
+.options{
+    max-width: 1000px;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right:10% ;
+    display: flex;
+    transform: translate(0,-55px);
+}
+.option:hover{
+    box-shadow: 0 0 10px red;
+}
+.option{
+    backdrop-filter: blur(20px);
+    font-size: small;
+    border-radius: 20px;
+    width: 35%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    min-width: 200px;
+    transition: box-shadow 0.3s ease ;
+}
+.subm{
+    width: 30%;
+    margin-left: 35%;
+    height: 50px;
+    margin-bottom: 100px;
+}
+.sub{
+    border: none;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,rgb(112,12,12) , rgb(247,40,40));
+    height: 50px;
+    width: 100%;
+    transition: background-image: 5s ease;
+}
+.sub:hover{
+    background-image: linear-gradient(to right, rgb(247, 40, 40), rgb(112, 12, 12));
+    cursor: pointer;
+}

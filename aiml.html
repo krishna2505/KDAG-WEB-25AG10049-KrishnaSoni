@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz page for AI/ML</title>
+    <link rel="stylesheet" href="aiml-style.css">
+</head>
+<body>
+    <div class="main-body">
+    <div class="bg-video">
+        <video autoplay muted loop class="video">
+            <source src="resources/bgVideo.mp4" type="video/mp4">
+        </video>
+    </div>
+        <header class="header">
+            <h1 class="gradient-text">QUIZ AI/ML</h1>
+        </header>
+        <form id="form">
+            <div class="question-plate">
+                <div class="question-no">
+                1.
+                </div>
+            <div class="question">
+                    Which of the following is an example of supervised learning?
+                </div>
+            </div>
+            <div class="options">
+            <ul>
+                <div class="option"><input type="radio" name="q1" value="a"> a) Predicting house prices using labeled data</div>
+                <div class="option"><input type="radio" name="q1" value="b"> b) Clustering customers based on purchase history</div>
+                <div class="option"><input type="radio" name="q1" value="c"> c) Finding groups of similar documents</div>
+                <div class="option"><input type="radio" name="q1" value="d"> d) Dimensionality reduction using PCA</div> 
+            </ul>         
+            </div>
+            <div class="question-plate">
+                <div class="question-no">
+                    2.
+                </div>
+                <div class="question">
+                Which of the following algorithms is commonly used for classification tasks?
+                </div>
+            </div>
+        <div class="options">
+                <ul>
+                    <div class="option"><input type="radio" name="q2" value="a"> a) K-Means</div>
+                    <div class="option"><input type="radio" name="q2" value="b"> b) Decision trees</div>
+                    <div class="option"><input type="radio" name="q2" value="c"> c) Linear Regression</div>
+                    <div class="option"><input type="radio" name="q2" value="d"> d) Principal Component Analysis</div> 
+                </ul>         
+            </div>
+            <div class="question-plate">
+                <div class="question-no">
+                    3.
+                </div>
+                <div class="question">
+                   In machine learning, overfitting refers to a model that:
+                </div>
+            </div>
+            <div class="options">
+            <ul>
+                    <div class="option"><input type="radio" name="q3" value="a"> a) Performs well on both training and test data</div>
+                    <div class="option"><input type="radio" name="q3" value="b"> b) Performs poorly on training data but well on test data</div>
+                    <div class="option"><input type="radio" name="q3" value="c"> c) Performs well on training data but poorly on test data</div>
+                    <div class="option"><input type="radio" name="q3" value="d"> d) Performs poorly on both training and test data</div> 
+                </ul>         
+        </div>
+            <div class="question-plate">
+                <div class="question-no">
+                4.
+                </div>
+                <div class="question">
+                Which of the following is a loss function commonly used in classification problems?
+            </div>
+        </div>
+            <div class="options">
+                <ul>
+                    <div class="option"><input type="radio" name="q4" value="a"> a) Mean Squared Error (MSE)</div>
+                    <div class="option"><input type="radio" name="q4" value="b"> b) Hinge Loss</div>
+                    <div class="option"><input type="radio" name="q4" value="c"> c) Euclidean Distance</div>
+                    <div class="option"><input type="radio" name="q4" value="d"> d) Cross-Entropy Loss</div> 
+                </ul>         
+            </div>
+            <div class="question-plate">
+                <div class="question-no">
+                    5.
+                </div>
+                <div class="question">
+                    In the context of neural networks, what does the activation function do?
+                </div>
+        </div>
+            <div class="options">
+            <ul>
+                <div class="option"><input type="radio" name="q5" value="a"> a) Adds non-linearity to the model</div>
+                <div class="option"><input type="radio" name="q5" value="b"> b) Reduces the dimensionality of input data</div>
+                <div class="option"><input type="radio" name="q5" value="c"> c) Normalizes the dataset</div>
+                <div class="option"><input type="radio" name="q5" value="d"> d) Removes redundant features</div> 
+            </ul>  
+        </div>       
+        <div class="subm">
+            <button type="submit" class="sub">Submit Quiz</button>
+        </div>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
